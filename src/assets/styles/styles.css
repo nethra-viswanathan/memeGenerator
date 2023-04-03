@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik+Iso&display=swap");
+.navParent {
+  width: 100%;
+  background-color: #DDF0E4;
+  display: flex;
+  justify-content: space-between;
+}
+.navParent .navBar {
+  display: flex;
+  align-items: center;
+}
+.navParent .navBar img {
+  height: 80px;
+}
+.navParent .navBar span {
+  color: #738678;
+  font-family: "Rubik Iso", cursive;
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.navParent .downloadSection {
+  padding: 10px;
+}
+.navParent .downloadSection button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.navParent .downloadSection span {
+  font-size: 3em;
+  color: #738678;
+}
+
+.memeFormParent .memeForm {
+  width: 54%;
+  margin: auto;
+  padding: 30px;
+}
+.memeFormParent .memeForm .memeInputs input {
+  width: 290px;
+  padding: 10px 15px;
+  border: 2px solid #738678;
+  border-radius: 5px;
+  margin: 0px 30px;
+}
+.memeFormParent .memeForm .generateBtn {
+  text-align: center;
+  margin: 30px;
+}
+.memeFormParent .memeForm .generateBtn input {
+  background-color: #738678;
+  border: none;
+  padding: 10px 20px;
+  color: #DDF0E4;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+}
+.memeFormParent .main {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.memeFormParent .main .displayMemeParent {
+  position: relative;
+}
+.memeFormParent .main .displayMemeParent .textParent .topText, .memeFormParent .main .displayMemeParent .textParent .bottomText {
+  position: absolute;
+  text-align: center;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  font-size: 40px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.memeFormParent .main .displayMemeParent .textParent .topText {
+  top: 30px;
+}
+.memeFormParent .main .displayMemeParent .textParent .bottomText {
+  bottom: 30px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
